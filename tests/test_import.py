@@ -47,7 +47,7 @@ class XML_Import_Tests(CustomSettingsTestCase):
 
         #pp.pprint(delta)
 
-        expected = [ ('DataTypeNameSpace', 3),
+        expected = [ ('DataTypeNameSpace', 2),
                      ('Fact', 43),
                      ('FactDataType', 3),
                      ('FactTerm', 24),
