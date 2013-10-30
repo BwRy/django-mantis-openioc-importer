@@ -51,7 +51,10 @@ class OpenIOC_Import:
 
         self.toplevel_attrs = {}
 
-        self.namespace_dict = {None:DINGOS_NAMESPACE_URI}
+        if 'namespace_dict' in kwargs:
+            self.namespace_dict = kwargs['namespace_dict']
+        else:
+            self.namespace_dict = {None:DINGOS_NAMESPACE_URI}
 
         self.iobject_family_name = 'ioc'
         self.iobject_family_revision_name = ''
