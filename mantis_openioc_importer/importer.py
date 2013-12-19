@@ -165,7 +165,6 @@ class OpenIOC_Import:
         if identifier_ns_uri:
             self.identifier_ns_uri = identifier_ns_uri
 
-
         # Use the generic XML import customized for  OpenIOC import
         # to turn XML into DingoObjDicts
 
@@ -247,7 +246,7 @@ class OpenIOC_Import:
                                           iobject_type_revision_name= '',
                                           iobject_data=elt_dict,
                                           uid=id_and_rev_info['id'],
-                                          identifier_ns_uri= identifier_ns_uri,
+                                          identifier_ns_uri= self.identifier_ns_uri,
                                           timestamp = ts,
                                           create_timestamp = self.create_timestamp,
                                           markings=markings,
