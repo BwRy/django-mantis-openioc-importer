@@ -33,8 +33,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -43,7 +43,7 @@ schema_list = [
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -51,8 +51,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -60,8 +60,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -69,8 +69,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -78,8 +78,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -87,8 +87,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -96,8 +96,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -105,8 +105,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -114,8 +114,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -123,8 +123,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -132,8 +132,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -141,8 +141,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -150,8 +150,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -159,8 +159,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -168,8 +168,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -177,8 +177,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -186,8 +186,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -195,8 +195,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -204,8 +204,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -213,8 +213,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -222,8 +222,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -231,8 +231,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -240,8 +240,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -249,8 +249,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -258,8 +258,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -267,8 +267,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -276,8 +276,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -285,8 +285,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -294,8 +294,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -303,8 +303,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -312,8 +312,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -321,8 +321,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -330,8 +330,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -339,8 +339,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -348,8 +348,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -357,8 +357,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -366,8 +366,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -375,8 +375,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -384,8 +384,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -393,8 +393,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -402,8 +402,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -411,8 +411,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -420,8 +420,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -429,8 +429,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -438,8 +438,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -447,8 +447,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -456,8 +456,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -465,8 +465,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -474,8 +474,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -483,8 +483,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -492,8 +492,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -501,8 +501,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -510,8 +510,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -519,8 +519,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -528,8 +528,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -537,8 +537,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -546,8 +546,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -555,8 +555,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -564,8 +564,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -573,8 +573,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -582,8 +582,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -591,8 +591,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -600,8 +600,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -609,8 +609,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -618,8 +618,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -627,8 +627,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -636,8 +636,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [
@@ -645,8 +645,8 @@ schema_list = [
         "ioc",
         "http://schemas.mandiant.com/2010/ioc",
         [
-            "[fact_count_equal_2?][term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0]",
-            "[term_of_fact_num_1] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
     ],
     [

@@ -2,6 +2,5 @@
 Usage
 ========
 
-To use Mantis OpenIOC Importer in a project::
-
-	import django-mantis-openioc-importer
+Run the Django ``help`` command to view the commands this app makes available via the command line. Doing ``--help``
+on any of these commands provides you with additional information about each command.
