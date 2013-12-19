@@ -58,7 +58,7 @@ class XML_Import_Tests(CustomSettingsTestCase):
                      ('InfoObject', 14),
                      ('InfoObject2Fact', 54),
                      ('InfoObjectFamily', 2),
-                     ('InfoObjectType', 4),
+                     ('InfoObjectType', 3),
                      ('Marking2X', 13),
                      ('NodeID', 32),
                      ('Revision', 3)]

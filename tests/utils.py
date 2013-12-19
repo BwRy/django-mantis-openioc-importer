@@ -26,7 +26,11 @@ def object_counter():
     class_names.sort()
     result = []
     for class_name in class_names:
-        result.append((class_name, len(dingos_class_map[class_name].objects.all())))
+        #print "Class %s" % class_name
+        objects_in_db = dingos_class_map[class_name].objects.all()
+        #for o in objects_in_db:
+        #    print o
+        result.append((class_name, objects_in_db.count()))
     return result
 
 

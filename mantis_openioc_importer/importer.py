@@ -20,6 +20,8 @@ import logging
 
 import re
 
+import pprint
+
 from collections import deque
 
 from django.utils import timezone
@@ -39,9 +41,9 @@ from mantis_core.import_handling import MantisImporter
 from mantis_core.models import FactDataType
 
 
-
-
 from mantis_core.models import Identifier
+
+pp = pprint.PrettyPrinter(indent=2)
 
 logger = logging.getLogger(__name__)
 
@@ -105,13 +107,12 @@ class OpenIOC_Import:
 
 
     def __init__(self, *args, **kwargs):
-
         if 'namespace_dict' in kwargs:
             self.namespace_dict = kwargs['namespace_dict']
         else:
             self.namespace_dict = {None:DINGOS_NAMESPACE_URI}
 
-        self.iobject_family_name = 'ioc'
+        self.iobject_family_name = 'ioc.mandiant.com'
         self.iobject_family_revision_name = ''
 
 
@@ -124,6 +125,7 @@ class OpenIOC_Import:
                    xml_content=None,
                    markings=None,
                    identifier_ns_uri=None,
+                   initialize_importer=True,
                    **kwargs):
         """
         Import an OpenIOC indicator xml (root element 'ioc') from file <filepath> or
@@ -146,9 +148,10 @@ class OpenIOC_Import:
         without the **kwargs parameter, an error would occur.
         """
 
-        # Clear state in case xml_import is used several times
 
-        self.__init__()
+        if initialize_importer:
+            # Clear state in case xml_import is used several times, but keep namespace info
+            self.__init__()
 
         # Initialize  default arguments
 
@@ -206,14 +209,14 @@ class OpenIOC_Import:
         # Export family information.
         family_info_dict = search_by_re_list(self.RE_LIST_NS_TYPE_FROM_NS_URL,default_ns)
         if family_info_dict:
-            self.iobject_family_name=family_info_dict['family']
+            self.iobject_family_name="%s.mandiant.com" % family_info_dict['family']
             self.iobject_family_revision_name=family_info_dict['revision']
 
 
         # Initialize stack with import_results.
 
         # First, the result from the top-level import
-        pending_stack = dequeu()
+        pending_stack = deque()
 
         pending_stack.append((id_and_rev_info, elt_name,elt_dict))
 

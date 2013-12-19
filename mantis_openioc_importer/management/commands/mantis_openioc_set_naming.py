@@ -30,7 +30,7 @@ from dingos.management.commands.dingos_manage_naming_schemas import Command as M
 schema_list = [
     [
         "RegistryItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -39,7 +39,7 @@ schema_list = [
     ],
     [
         "ServiceItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -48,7 +48,7 @@ schema_list = [
     ],
     [
         "ProcessItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -57,7 +57,7 @@ schema_list = [
     ],
     [
         "UrlHistoryItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -66,7 +66,7 @@ schema_list = [
     ],
     [
         "DriverItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -75,7 +75,7 @@ schema_list = [
     ],
     [
         "Handle",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -84,7 +84,7 @@ schema_list = [
     ],
     [
         "FileItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -93,7 +93,7 @@ schema_list = [
     ],
     [
         "FilterModule",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -102,7 +102,7 @@ schema_list = [
     ],
     [
         "TIPIndicator",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -111,7 +111,7 @@ schema_list = [
     ],
     [
         "TimeSpan",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -120,7 +120,7 @@ schema_list = [
     ],
     [
         "ArpStateTypes",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -129,7 +129,7 @@ schema_list = [
     ],
     [
         "Issue",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -138,7 +138,7 @@ schema_list = [
     ],
     [
         "BatchResult",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -147,7 +147,7 @@ schema_list = [
     ],
     [
         "NetworkInfo",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -156,7 +156,7 @@ schema_list = [
     ],
     [
         "FileAttributes",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -165,7 +165,7 @@ schema_list = [
     ],
     [
         "ServiceMode",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -174,7 +174,7 @@ schema_list = [
     ],
     [
         "DataFormat",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -183,7 +183,7 @@ schema_list = [
     ],
     [
         "Section",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -192,7 +192,7 @@ schema_list = [
     ],
     [
         "ModuleDefinition",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -201,7 +201,7 @@ schema_list = [
     ],
     [
         "IpInfo",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -210,7 +210,7 @@ schema_list = [
     ],
     [
         "ArrayOfDataFormat",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -219,7 +219,7 @@ schema_list = [
     ],
     [
         "Module",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -228,7 +228,7 @@ schema_list = [
     ],
     [
         "Trigger",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -237,7 +237,7 @@ schema_list = [
     ],
     [
         "PrefetchItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -246,7 +246,7 @@ schema_list = [
     ],
     [
         "HookItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -255,7 +255,7 @@ schema_list = [
     ],
     [
         "RouteEntryItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -264,7 +264,7 @@ schema_list = [
     ],
     [
         "MemorySection",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -273,7 +273,7 @@ schema_list = [
     ],
     [
         "ParameterValue",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -282,7 +282,7 @@ schema_list = [
     ],
     [
         "UserItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -291,7 +291,7 @@ schema_list = [
     ],
     [
         "SubsystemType",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -300,7 +300,7 @@ schema_list = [
     ],
     [
         "ModuleResult",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -309,7 +309,7 @@ schema_list = [
     ],
     [
         "RegistryHiveItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -318,7 +318,7 @@ schema_list = [
     ],
     [
         "HashItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -327,7 +327,7 @@ schema_list = [
     ],
     [
         "FileDownloadHistoryItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -336,7 +336,7 @@ schema_list = [
     ],
     [
         "TIPResult",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -345,7 +345,7 @@ schema_list = [
     ],
     [
         "ScriptCommand",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -354,7 +354,7 @@ schema_list = [
     ],
     [
         "VolumeItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -363,7 +363,7 @@ schema_list = [
     ],
     [
         "Link",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -372,7 +372,7 @@ schema_list = [
     ],
     [
         "OrderSpec",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -381,7 +381,7 @@ schema_list = [
     ],
     [
         "DnsEntryItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -390,7 +390,7 @@ schema_list = [
     ],
     [
         "StreamItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -399,7 +399,7 @@ schema_list = [
     ],
     [
         "ResourceInfoItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -408,7 +408,7 @@ schema_list = [
     ],
     [
         "ServiceStatus",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -417,7 +417,7 @@ schema_list = [
     ],
     [
         "ArpEntryItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -426,7 +426,7 @@ schema_list = [
     ],
     [
         "VersionInfoItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -435,7 +435,7 @@ schema_list = [
     ],
     [
         "ParameterDefinition",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -444,7 +444,7 @@ schema_list = [
     ],
     [
         "DiskItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -453,7 +453,7 @@ schema_list = [
     ],
     [
         "VolumeFileSystemFlags",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -462,7 +462,7 @@ schema_list = [
     ],
     [
         "EventLogItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -471,7 +471,7 @@ schema_list = [
     ],
     [
         "SystemRestoreItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -480,7 +480,7 @@ schema_list = [
     ],
     [
         "SIDTypes",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -489,7 +489,7 @@ schema_list = [
     ],
     [
         "TaskAction",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -498,7 +498,7 @@ schema_list = [
     ],
     [
         "ModuleItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -507,7 +507,7 @@ schema_list = [
     ],
     [
         "CookieHistoryItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -516,7 +516,7 @@ schema_list = [
     ],
     [
         "FormHistoryItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -525,7 +525,7 @@ schema_list = [
     ],
     [
         "TimelineItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -534,7 +534,7 @@ schema_list = [
     ],
     [
         "TIPItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -543,7 +543,7 @@ schema_list = [
     ],
     [
         "RouteTypes",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -552,7 +552,7 @@ schema_list = [
     ],
     [
         "Resource",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -561,7 +561,7 @@ schema_list = [
     ],
     [
         "PortItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -570,7 +570,7 @@ schema_list = [
     ],
     [
         "StringMatchItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -579,7 +579,7 @@ schema_list = [
     ],
     [
         "TaskItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -588,7 +588,7 @@ schema_list = [
     ],
     [
         "Identity",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -597,7 +597,7 @@ schema_list = [
     ],
     [
         "VolumeTypeEnum",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -606,7 +606,7 @@ schema_list = [
     ],
     [
         "PersistenceItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -615,7 +615,7 @@ schema_list = [
     ],
     [
         "ArpCacheTypes",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -624,7 +624,7 @@ schema_list = [
     ],
     [
         "SystemInfoItem",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -633,7 +633,7 @@ schema_list = [
     ],
     [
         "PartitionInfo",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -642,7 +642,7 @@ schema_list = [
     ],
     [
         "Script",
-        "ioc",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
@@ -650,8 +650,8 @@ schema_list = [
         ]
     ],
     [
-        "ioc",
-        "ioc",
+        "ioc.mandiant.com",
+        "ioc.mandiant.com",
         "http://schemas.mandiant.com/2010/ioc",
         [
             "[short_description]"
