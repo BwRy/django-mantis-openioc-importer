@@ -39,6 +39,9 @@ Here is the output of ``--help`` for ``mantis_openioc_import``::
                             File with json representation of information of marking to be associated with imports.
       -p PLACEHOLDER_FILLERS, --marking_pfill=PLACEHOLDER_FILLERS
                             Key-value pairs used to fill in placeholders in marking as described in marking file.
+      -n IDENTIFIER_NS_URI, --id_namespace_uri=IDENTIFIER_NS_URI
+                            URI of namespace used to qualify the identifiers of the created information objects.
+
       --version             show program's version number and exit
       -h, --help            show this help message and exit
     
