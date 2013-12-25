@@ -12,13 +12,13 @@ You can contribute in many ways.
 The issue tracker for the Django Mantis OpenIOC Importer
 --------------------------------------------------------
 
-The further development of the Mantis STIX importer
+The further development of the Mantis OpenIOC importer
 will occur within the further development of the 
 `Django Mantis Cyber-Threat Intelligence Management Framework`_. So,
 please use
 https://github.com/siemens/django-mantis/issues
 as issue tracker for bugs, feature requests and other feedback regarding
-django-mantis-stix-importer.
+django-mantis-openioc-importer.
 
 Types of Contributions
 ----------------------
