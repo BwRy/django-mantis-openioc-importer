@@ -311,20 +311,21 @@ class OpenIOC_Import:
         # Extract time-stamp
 
         if '@last-modified' in attributes:
-            naive = parse_datetime(attributes['@last-modified'])
-            # Make sure that information regarding the timezone is
-            # included in the time stamp. If it is not, we chose
-            # utc as default timezone: if we assume that the same
-            # producer of OpenIOC data always uses the same timezone
-            # for filling in the 'last-modified' attribute, then
-            # this serves the main purpose of time stamps for our
-            # means: we can find out the latest revision of a
-            # given piece of data.
-            if not timezone.is_aware(naive):
-                aware = timezone.make_aware(naive,timezone.utc)
-            else:
-                aware = naive
-            result['timestamp']= aware
+            naive = parse_datetime(attributes['@last-modified'].strip())
+            if naive:
+                # Make sure that information regarding the timezone is
+                # included in the time stamp. If it is not, we chose
+                # utc as default timezone: if we assume that the same
+                # producer of OpenIOC data always uses the same timezone
+                # for filling in the 'last-modified' attribute, then
+                # this serves the main purpose of time stamps for our
+                # means: we can find out the latest revision of a
+                # given piece of data.
+                if not timezone.is_aware(naive):
+                    aware = timezone.make_aware(naive,timezone.utc)
+                else:
+                    aware = naive
+                result['timestamp']= aware
 
         return result
 
