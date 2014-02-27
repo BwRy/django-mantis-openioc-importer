@@ -45,13 +45,15 @@ class XML_Import_Tests(CustomSettingsTestCase):
                                   identifier_ns_uri="example.com",
                                   marking_json='tests/testdata/markings/import_info.json')
 
-        #pp.pprint(delta)
+        print "DELTA"
+        pp.pprint(delta)
 
         expected = [ ('DataTypeNameSpace', 2),
                      ('Fact', 43),
                      ('FactDataType', 3),
                      ('FactTerm', 24),
                      ('FactTerm2Type', 24),
+                     ('FactTermNamespaceMap', 17),
                      ('FactValue', 28),
                      ('Identifier', 14),
                      ('IdentifierNameSpace', 2),
@@ -61,20 +63,43 @@ class XML_Import_Tests(CustomSettingsTestCase):
                      ('InfoObjectType', 3),
                      ('Marking2X', 13),
                      ('NodeID', 32),
+                     ('PositionalNamespace', 38),
                      ('Revision', 3)]
 
         self.assertEqual(delta,expected)
 
+
+        # Reimporting the same ioc without additional marking
+        # into the same namespace changes nothing whatsoever:
+        # all objects already exist.
+
         (delta,result) = t_import('tests/testdata/xml/zeus.ioc',
-                                  placeholder_fillers=[('source', 'Example_import')],
-                                  identifier_ns_uri="example.com",
-                                  marking_json='tests/testdata/markings/import_info.json')
+                                  identifier_ns_uri="example.com")
 
-
-        #pp.pprint(delta)
-
-        expected = [('Identifier', 1), ('InfoObject', 1), ('InfoObject2Fact', 6)]
+        expected = []
 
         self.assertEqual(delta,expected)
 
+        # Importing the same ioc without a timestamp leads to
+        # creation of new infoobjecs and links to existing facts for the new timestamp (now time)
+
+        (delta,result) = t_import('tests/testdata/xml/zeus_no_timestamp.ioc',
+                                  identifier_ns_uri="example.com")
+
+
+        expected = [('InfoObject', 13), ('InfoObject2Fact', 47)]
+
+
+        # Import into a different namespace again yields new infoobjects, links
+        # to existing facts, and a few new facts (namely the facts that link
+        # to another InfoObject-identifier.
+
+        (delta,result) = t_import('tests/testdata/xml/zeus_no_timestamp.ioc',
+                                  identifier_ns_uri="other_namespace")
+
+
+        expected = [('Fact', 12), ('Identifier', 13), ('IdentifierNameSpace', 1), ('InfoObject', 13), ('InfoObject2Fact', 47)]
+
+
+        self.assertEqual(delta,expected)
 
