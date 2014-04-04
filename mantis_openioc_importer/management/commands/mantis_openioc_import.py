@@ -26,7 +26,7 @@ class Command(DingoImportCommand):
     files into DINGO.
     """
 
-    Importer = OpenIOC_Import()
+    Importer_Class = OpenIOC_Import
 
     help = 'Imports OpenIOC XML files of specified paths into DINGO'
 

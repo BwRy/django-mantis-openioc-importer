@@ -38,7 +38,8 @@ from dingos.core.xml_utils import extract_attributes
 
 from mantis_core.import_handling import MantisImporter
 
-from mantis_core.models import FactDataType
+from mantis_core.models import FactDataType, IdentifierNameSpaceSubstitutionMap, IdentifierNameSpace
+
 
 
 from mantis_core.models import Identifier
@@ -115,9 +116,28 @@ class OpenIOC_Import:
         self.iobject_family_name = 'ioc.mandiant.com'
         self.iobject_family_revision_name = ''
 
-
         self.create_timestamp = timezone.now()
-        self.identifier_ns_uri = DINGOS_DEFAULT_ID_NAMESPACE_URI
+
+        if 'default_identifier_ns_uri' in kwargs:
+            self.default_identifier_ns_uri = kwargs['default_identifier_ns_uri']
+        else:
+            self.default_identifier_ns_uri = DINGOS_DEFAULT_ID_NAMESPACE_URI
+
+        self.identifier_ns_uri  = self.default_identifier_ns_uri
+
+        if 'allowed_identifier_ns_uris' in kwargs:
+            self.allowed_identifier_ns_uris = kwargs['allowed_identifier_ns_uris']
+
+        else:
+            self.allowed_identifier_ns_uris = None
+
+        if 'substitute_unallowed_namespaces' in kwargs:
+            self.substitute_unallowed_namespaces = kwargs['substitute_unallowed_namespaces']
+
+        else:
+            self.substitute_unallowed_namespaces = False
+
+
 
 
     def xml_import(self,
@@ -150,8 +170,7 @@ class OpenIOC_Import:
 
 
         if initialize_importer:
-            # Clear state in case xml_import is used several times, but keep namespace info
-            self.__init__()
+            self.create_timestamp = timezone.now()
 
         # Initialize  default arguments
 
@@ -254,6 +273,10 @@ class OpenIOC_Import:
                                                           'datatype_extractor' : self.datatype_extractor,
                                                           'attr_ignore_predicate' : self.attr_ignore_predicate},
                                           namespace_dict=self.namespace_dict,
+                                          default_identifier_ns_uri=self.default_identifier_ns_uri,
+                                          allowed_identifier_ns_uris=self.allowed_identifier_ns_uris,
+                                          substitute_unallowed_namespaces=self.substitute_unallowed_namespaces,
+
                                           )
 
 
@@ -584,31 +607,50 @@ class OpenIOC_Import:
         (namespace_uri,uid) = (self.identifier_ns_uri,attr_info['idref'])
 
 
+        if not self.substitute_unallowed_namespaces or namespace_uri in self.allowed_identifier_ns_uris:
+            # If no substitution is going on or the namespace is allowed, we do not have to worry
+            # and can simply set the identifier as is.
+            namespace_obj,created = IdentifierNameSpace.objects.get_or_create(uri=namespace_uri)
+            add_fact_kargs['value_iobject_id'],created = Identifier.objects.get_or_create(uid=uid, namespace=namespace_obj)
+        else:
+            # So, now we have the case that the identifier namespace is not allowed.
+            # The question now is: do we make the reference to an identifier in the substituted namespace
+            # or do we reference the identifier as given?
+
+            # For OpenIOC, the answer is easy: OpenIOC proper does not know references, so all reference
+            # occurring here must have come from embeddings that have been factored out by the
+            # MANTIS import. Hence, a reference must always point to the identifier in the
+            # substituted namespace.
+
+            substitution_namespace = IdentifierNameSpaceSubstitutionMap.substitute_namespace(importer_ns_uri=self.default_identifier_ns_uri,
+                                                                                                 desired_ns_uri=namespace_uri)
+            namespace_uri = substitution_namespace.uri
+
+            namespace_obj,created = IdentifierNameSpace.objects.get_or_create(uri=namespace_uri)
+            add_fact_kargs['value_iobject_id'],created = Identifier.objects.get_or_create(uid=uid, namespace=namespace_obj)
+
+
         # We are always able to extract the timestamp from the referencing node, because for OpenIOC,
         # all references are created by DINGO's generic import, and the import writes the timestamp
         # information into the created reference.
 
         timestamp = attr_info['@timestamp']
 
-        # The following either retrieves an already existing object of given ID and timestamp
-        # or creates a placeholder object.
+        # Until v0.2.1, we created placeholder objects ... but that is totally unnecessary (it originated
+        # at a stage, where we did not have a separate table for Identifiers) This has been removed.
+        # #The following either retrieves an already existing object of given ID and timestamp
+        # #or creates a placeholder object.
 
-        (target_mantis_obj, existed) = MantisImporter.create_iobject(
-            uid=uid,
-            identifier_ns_uri=namespace_uri,
-            timestamp=timestamp)
+        # timestamp = attr_info['@timestamp']
+        #(target_mantis_obj, existed) = MantisImporter.create_iobject(
+        #    uid=uid,
+        #    identifier_ns_uri=namespace_uri,
+        #    timestamp=timestamp)
 
-        logger.debug("Creation of Placeholder for %s %s returned %s" % (namespace_uri,uid,existed))
+        #logger.debug("Creation of Placeholder for %s %s returned %s" % (namespace_uri,uid,existed))
 
-        # What remains to be done is to write the reference to the created placeholder object
-
-        add_fact_kargs['value_iobject_id'] = Identifier.objects.get(uid=uid,namespace__uri=namespace_uri)
-
-        # Handlers have to return 'True', otherwise the fact will not be created.
 
         return True
-
-
 
     def fact_handler_list(self):
         """
