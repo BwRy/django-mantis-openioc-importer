@@ -29,635 +29,644 @@ from dingos.management.commands.dingos_manage_naming_schemas import Command as M
 
 schema_list = [
     [
-        "RegistryItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "RegistryItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ServiceItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ServiceItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ProcessItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ProcessItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "UrlHistoryItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "UrlHistoryItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "DriverItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "DriverItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "Handle",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "Handle", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "FileItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "FileItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "FilterModule",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "FilterModule", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "TIPIndicator",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "TIPIndicator", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "TimeSpan",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "TimeSpan", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ArpStateTypes",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ArpStateTypes", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "Issue",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "Issue", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "BatchResult",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "BatchResult", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "NetworkInfo",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "NetworkInfo", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "FileAttributes",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "FileAttributes", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ServiceMode",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ServiceMode", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "DataFormat",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "DataFormat", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "Section",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "Section", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ModuleDefinition",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ModuleDefinition", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "IpInfo",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "IpInfo", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ArrayOfDataFormat",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ArrayOfDataFormat", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "Module",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "Module", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "Trigger",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "Trigger", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "PrefetchItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "PrefetchItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "HookItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "HookItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "RouteEntryItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "RouteEntryItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "MemorySection",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "MemorySection", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ParameterValue",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ParameterValue", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "UserItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "UserItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "SubsystemType",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "SubsystemType", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ModuleResult",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ModuleResult", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "RegistryHiveItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "RegistryHiveItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "HashItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "HashItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "FileDownloadHistoryItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "FileDownloadHistoryItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "TIPResult",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "TIPResult", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ScriptCommand",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ScriptCommand", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "VolumeItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "VolumeItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "Link",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "Link", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "OrderSpec",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "OrderSpec", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "DnsEntryItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "DnsEntryItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "StreamItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "StreamItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ResourceInfoItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ResourceInfoItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ServiceStatus",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ServiceStatus", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ArpEntryItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ArpEntryItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "VersionInfoItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "VersionInfoItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ParameterDefinition",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ParameterDefinition", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "DiskItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "DiskItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "VolumeFileSystemFlags",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "VolumeFileSystemFlags", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "EventLogItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "EventLogItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "SystemRestoreItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "SystemRestoreItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "SIDTypes",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "SIDTypes", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "TaskAction",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "TaskAction", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ModuleItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ModuleItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "CookieHistoryItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "CookieHistoryItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "FormHistoryItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "FormHistoryItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "TimelineItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "TimelineItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "TIPItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "TIPItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "RouteTypes",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "RouteTypes", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "Resource",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "Resource", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "PortItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "PortItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "StringMatchItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "StringMatchItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "TaskItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "TaskItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "Identity",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "Identity", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "VolumeTypeEnum",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "VolumeTypeEnum", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "PersistenceItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "PersistenceItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ArpCacheTypes",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ArpCacheTypes", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "SystemInfoItem",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "SystemInfoItem", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "PartitionInfo",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "PartitionInfo", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "Script",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "Script", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
         [
-            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]",
+            "[fact_count_equal_2?][term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0]", 
             "[term_of_fact_num_0] [value_of_fact_num_1] [value_of_fact_num_0] ...([fact_count] facts)"
         ]
-    ],
+    ], 
     [
-        "ioc.mandiant.com",
-        "ioc.mandiant.com",
-        "http://schemas.mandiant.com/2010/ioc",
+        "ioc.mandiant.com", 
+        "ioc.mandiant.com", 
+        "http://schemas.mandiant.com/2010/ioc", 
+        [
+            "[short_description]"
+        ]
+    ], 
+    [
+        "ioc", 
+        "ioc.mandiant.com", 
+        "http://stix.mitre.org/extensions/TestMechanism#OpenIOC2010-1", 
         [
             "[short_description]"
         ]
     ]
 ]
+
 manage_command = ManageCommand()
 
 pp = pprint.PrettyPrinter(indent=2)
