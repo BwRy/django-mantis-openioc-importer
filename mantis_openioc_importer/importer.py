@@ -146,6 +146,7 @@ class OpenIOC_Import:
                    markings=None,
                    identifier_ns_uri=None,
                    initialize_importer=True,
+                   track_created_objects=False,
                    **kwargs):
         """
         Import an OpenIOC indicator xml (root element 'ioc') from file <filepath> or
@@ -194,6 +195,7 @@ class OpenIOC_Import:
                                                    id_and_revision_extractor=self.id_and_revision_extractor,
                                                    transformer=self.transformer,
                                                    keep_attrs_in_created_reference=False,
+
                                                    )
 
 
@@ -251,6 +253,9 @@ class OpenIOC_Import:
         else:
             ts = self.create_timestamp
 
+        if track_created_objects:
+            created_object_info = deque()
+
         while pending_stack:
             (id_and_rev_info, elt_name, elt_dict) = pending_stack.pop()
 
@@ -258,7 +263,7 @@ class OpenIOC_Import:
             iobject_type_name = elt_name
             iobject_type_namespace_uri = self.namespace_dict.get(elt_dict.get('@@ns',None),DINGOS_GENERIC_FAMILY_NAME)
 
-            MantisImporter.create_iobject(iobject_family_name = self.iobject_family_name,
+            (info_obj,existed) = MantisImporter.create_iobject(iobject_family_name = self.iobject_family_name,
                                           iobject_family_revision_name= self.iobject_family_revision_name,
                                           iobject_type_name=iobject_type_name,
                                           iobject_type_namespace_uri=iobject_type_namespace_uri,
@@ -278,6 +283,28 @@ class OpenIOC_Import:
                                           substitute_unallowed_namespaces=self.substitute_unallowed_namespaces,
 
                                           )
+
+            if track_created_objects:
+                import_dict = {'object': info_obj,
+                       'name': info_obj.name,
+                       'identifier_namespace_uri' : self.identifier_ns_uri,
+                       'identifier_uid': id_and_rev_info['id'],
+                       'iobject_type_name': iobject_type_name,
+                       'existed' : existed}
+
+
+                if import_dict['object'].pk:
+                    import_dict['pk'] = import_dict['object'].pk
+                else:
+                    import_dict['pk'] = None
+                del(import_dict['object'])
+
+                created_object_info.append(import_dict)
+
+        if track_created_objects:
+            return created_object_info
+
+
 
 
 
