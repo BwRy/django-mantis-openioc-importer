@@ -2,6 +2,13 @@
 Mantis OpenIOC Importer
 =============================
 
+**WARNING: Mantis is not maintained anymore: by now, the excellent MISP platform
+(http://www.misp-project.org/)
+offers all the functionality (and much more) that had been required when
+MANTIS was created but could then not be found in any other tool.**
+
+
+
 A module implementing import of  OpenIOC indicator XML files for the Mantis Cyber Threat Intelligence Mgmt. Framework.
 
 
